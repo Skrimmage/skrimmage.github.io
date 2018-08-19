@@ -1,12 +1,31 @@
 # Site settings
 title: Skrimmage
 email: Danny@Skrimmage.com
-description: ""
+
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.skrimmage.com" # the base hostname & protocol for your site
+url: "https://www.skrimmage.com" # the base hostname & protocol for your site
 
 twitter_username: SkrimmageForum
 github_username: Skrimmage
 
+name: Skrimmage Blog
+description: "All-comprehensive site and forums for Sports Analytics and Games Research."
+author: Danny Page
+author_email: Danny@Skrimmage.com
+
 # Build settings
 markdown: kramdown
+
+category_dir: /tags
+baseurl: /blog
+
+#### Under the Hood Stuff #####
+
+# Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
+permalink: pretty
+
+# How many articles do you wish to appear on the front page:
+paginate: 3
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
