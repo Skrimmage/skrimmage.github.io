@@ -17,7 +17,6 @@ author_email: Danny@Skrimmage.com
 markdown: kramdown
 
 category_dir: /tags
-baseurl: /blog
 
 #### Under the Hood Stuff #####
 
