@@ -1,11 +1,9 @@
 ---
 layout: post
 title:  "Laying Your Data Pipeline, Part 1"
-date:   2018-11-17 16:16:01 -0600
-categories: code data
+date:   2018-08-18 16:16:01 -0600
+categories: [code, data]
 ---
-
-# Laying Your Data Pipeline, Part 1
 
 This is a test of my jekyll setup.
 
