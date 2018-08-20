@@ -13,8 +13,6 @@ description: "All-comprehensive site and forums for Sports Analytics and Games R
 author: Danny Page
 author_email: Danny@Skrimmage.com
 
-permalink: /:year/:month/:day/:title.html
-
 # Build settings
 markdown: kramdown
 
@@ -22,8 +20,8 @@ category_dir: /tags
 
 #### Under the Hood Stuff #####
 
-# Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
-permalink: pretty
+permalink: /blog/:year/:month/:day/:title/
+
 
 # How many articles do you wish to appear on the front page:
 paginate: 3
