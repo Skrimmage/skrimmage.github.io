@@ -11,7 +11,7 @@ layout: default
                 {{ post.date | date: date_format }}
             </time>
             <h2>
-                <a class="link" href="{{ post.url | relative_url }}" role="link">{{ post.title | escape }}</a>
+                <a class="link" href="{{ post.url | absolute_url }}" role="link">{{ post.title | escape }}</a>
             </h2>
             <p class="meta">
                 {{ post.content | strip_html | escape | truncatewords: 80 }}
