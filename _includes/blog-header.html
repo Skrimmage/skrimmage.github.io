@@ -1,13 +1,16 @@
 <header class="c-page__header">
   <h1><code>Skrimmage Blog</code></h1>
   {% if page.title == 'Blog' %}
-  <h1>{{ site.description }}</h1>
+    <h1>{{ site.description }}</h1>
+    <p>
+      <a href="{{ "/" | prepend: site.baseurl }}">Home</a>
+      <span class="u-separate"></span>
+      <a href="http://forums.skrimmage.com">Forums</a>
+      <span class="u-separate"></span>
+      <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+    </p>
+  {% else %}
+    <p>
+      <a href="{{ "/blog" | prepend: site:baseurl }}"
   {% endif %}
-  <p>
-    <a href="{{ "/" | prepend: site.baseurl }}">Home</a>
-    <span class="u-separate"></span>
-    <a href="http://forums.skrimmage.com">Forums</a>
-    <span class="u-separate"></span>
-    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
-  </p>
 </header>
