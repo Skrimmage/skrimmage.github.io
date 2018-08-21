@@ -1,0 +1,29 @@
+---
+# Main scss file
+---
+@charset "utf-8";
+
+// Helpers
+@import
+    'paper/helpers/mixins',
+    'paper/helpers/variables';
+
+// Base
+@import
+    'paper/base/reset';
+
+// Utilities
+@import
+    'paper/utilities/layout',
+    'paper/utilities/separator';
+
+// Components
+@import
+    'paper/components/page',
+    'paper/components/article',
+    'paper/components/tag',
+    'paper/components/archives';
+
+// Vendor
+@import
+    'paper/vendor/highlight';
