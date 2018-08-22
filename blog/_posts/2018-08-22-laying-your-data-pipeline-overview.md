@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Laying Your Data Pipeline, Overview"
+title:  "Laying Your Data Pipeline: Overview"
 date:   2018-08-22 00:00:01 -0600
 categories: [code, data, ritsac]
 ---
