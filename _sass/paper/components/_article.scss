@@ -7,6 +7,7 @@
 }
 
 .c-article__header {
+    display: table;
     margin-bottom: 2rem; // 50px
     @media screen and (min-width: $bp__sm) {
         display: -webkit-box;
@@ -28,7 +29,7 @@
 }
 
 .c-article__title {
-    @include fs--heading-1;
+    @include fs--title;
     color: $c-base__02;
 }
 
