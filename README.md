@@ -1,14 +1,15 @@
-# Creative Theme for Jekyll
+# Skrimmage Website
 
-A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
+This is the source for Skrimmage.com and the Skrimmage Blog. 
 
-Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
-The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
+If you have any questions about the site, you may reach me at danny @ skrimmage dot com.
 
-See it live in action at <https://volny.github.io/creative-theme-jekyll/>
+Tech Stack:
+- Github Pages for hosting
+- Hover for the domain
+- Github automatically enables [Jekyll](https://jekyllrb.com), a static site generator, to build pages. Any posts in the `_posts` folder are then put online and the site index is rebuilt. 
+- The Blog is hosted on [Digital Ocean](http://digitalocean.com) using the [Discourse Forum](https://www.discourse.org/) software.
 
-## To use the Creative Theme template in your project
-
-- Start by adding your info in `_config.yml`
-- In `_layouts/front.html` reorder or remove section as you prefer.
-
+Design:
+- The main page is based off of Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
+- The blog is based off of the [Paper theme](https://github.com/mkchoi212/paper-jekyll-theme)
