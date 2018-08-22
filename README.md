@@ -1,6 +1,6 @@
 # Skrimmage Website
 
-This is the source for Skrimmage.com and the Skrimmage Blog. 
+This is the source for [Skrimmage](Skrimmage.com) and the [Skrimmage Blog](skrimmage.com/blog). 
 
 If you have any questions about the site, you may reach me at danny @ skrimmage dot com.
 
