@@ -12,6 +12,7 @@ name: Skrimmage Blog
 description: "All-comprehensive site and forums for Sports Analytics and Games Research."
 author: Danny Page
 author_email: Danny@Skrimmage.com
+author_twitter: https://www.twitter.com/dannypage
 
 # Build settings
 markdown: kramdown
