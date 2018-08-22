@@ -32,9 +32,10 @@
     color: $c-base__02;
 }
 
-.c-article__time {
+.c-article__meta {
     @include fs--body;
     color: $c-base__01;
+    font-style: italic;
 }
 
 .c-article__main {
@@ -133,4 +134,3 @@
   float: right;
   text-align: right;
 }
-
