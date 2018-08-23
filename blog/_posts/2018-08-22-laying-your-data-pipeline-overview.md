@@ -7,7 +7,7 @@ tags: [code, data, ritsac]
 
 I recently gave a talk at the [2018 RIT Sports Analytics Conference](http://moneypuck.com/about.htm). As a web developer, I want to show how you can push your data to the web in a way that's accessible to everyone. There's a lot of different ways to build a pipeline, so we'll start simple and then build in new tools. Keep an eye out for the blog posts next week!
 
-### Upcoming Blog Posts:
+**Upcoming Blog Posts**
 - Part 1: Using Datasette and Zeit to publish data quickly.  _coming soon_
 - Part 2: Download results and turn it into a Glitch site.  _coming soon_
 - Part 3: Use Github and Travis CI to download up-to-date data.  _coming soon_
