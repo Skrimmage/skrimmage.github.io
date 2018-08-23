@@ -17,7 +17,7 @@ In the meantime, you can watch [my presentation](https://youtu.be/7nHoCBCdSlE?t=
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRnv-89B_HpcVkEyviINfXUli1vJpTXYN7h5nHVLQnGjqNFNEgudnt-qHSm3VBgPUqjk3vP0hq2MPIE/embed?start=false&loop=false&delayms=5000" frameborder="0" width="840" height="501" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-There were other great talks at the conference, you can get links to those [here]((https://hockey-graphs.com/2018/08/13/2018-ritsac-slides-and-video/#more-22969)! I highly encourage checking them out.
+There were other great talks at the conference, you can get links to those [here](https://hockey-graphs.com/2018/08/13/2018-ritsac-slides-and-video/#more-22969)! I highly encourage checking them out.
 
 ---
 
