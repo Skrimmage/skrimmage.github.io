@@ -1,6 +1,6 @@
 # Skrimmage Website
 
-This is the source for [Skrimmage](Skrimmage.com) and the [Skrimmage Blog](skrimmage.com/blog). This does not contain code for the forum; [Skrimmage Forum](forum.skrimmage.com) is hosted on [Digital Ocean](http://digitalocean.com) using the [Discourse Forum](https://www.discourse.org/) open soruce software.
+This is the source for [Skrimmage](Skrimmage.com) and the [Skrimmage Blog](skrimmage.com/blog). 
 
 If you have any questions about the site, you may reach me at danny @ skrimmage dot com.
 
