@@ -1,0 +1,1 @@
+[{"name":"constructorId","evidenceType":"number","typeFidelity":"precise"},{"name":"constructorRef","evidenceType":"string","typeFidelity":"precise"},{"name":"name","evidenceType":"string","typeFidelity":"precise"},{"name":"nationality","evidenceType":"string","typeFidelity":"precise"},{"name":"url","evidenceType":"string","typeFidelity":"precise"}]
