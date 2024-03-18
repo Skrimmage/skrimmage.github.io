@@ -11,32 +11,32 @@
 		
 		<link href="../../../_app/immutable/assets/0.8bdb7084.css" rel="stylesheet">
 		<link href="../../../_app/immutable/assets/VennDiagram.23a8b6a8.css" rel="stylesheet">
-		<link rel="modulepreload" href="../../../_app/immutable/entry/start.7fe2400b.js">
+		<link rel="modulepreload" href="../../../_app/immutable/entry/start.6ff790cd.js">
 		<link rel="modulepreload" href="../../../_app/immutable/chunks/index.fa6138d3.js">
-		<link rel="modulepreload" href="../../../_app/immutable/chunks/singletons.d7d36f85.js">
-		<link rel="modulepreload" href="../../../_app/immutable/chunks/paths.b0d39dbf.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/singletons.acb979ff.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/paths.12727951.js">
 		<link rel="modulepreload" href="../../../_app/immutable/chunks/parse.bee59afc.js">
-		<link rel="modulepreload" href="../../../_app/immutable/entry/app.109b0f4c.js">
+		<link rel="modulepreload" href="../../../_app/immutable/entry/app.ced44340.js">
 		<link rel="modulepreload" href="../../../_app/immutable/chunks/preload-helper.101896b7.js">
-		<link rel="modulepreload" href="../../../_app/immutable/nodes/0.f360f207.js">
-		<link rel="modulepreload" href="../../../_app/immutable/chunks/index.50959d53.js">
+		<link rel="modulepreload" href="../../../_app/immutable/nodes/0.cb66829c.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/index.3d6f506d.js">
 		<link rel="modulepreload" href="../../../_app/immutable/chunks/environment.9aa685ef.js">
 		<link rel="modulepreload" href="../../../_app/immutable/chunks/profile.e7706513.js">
-		<link rel="modulepreload" href="../../../_app/immutable/chunks/stores.05ec6fcd.js">
-		<link rel="modulepreload" href="../../../_app/immutable/chunks/VennDiagram.svelte_svelte_type_style_lang.80c6e67d.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/stores.11c28132.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/VennDiagram.svelte_svelte_type_style_lang.f6f9402d.js">
 		<link rel="modulepreload" href="../../../_app/immutable/chunks/Icon.12882af5.js">
 		<link rel="modulepreload" href="../../../_app/immutable/chunks/index.a5cc338a.js">
-		<link rel="modulepreload" href="../../../_app/immutable/nodes/14.9b7312e3.js">
-		<link rel="modulepreload" href="../../../_app/immutable/chunks/_page.a47203b6.js">
+		<link rel="modulepreload" href="../../../_app/immutable/nodes/14.ace10166.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/_page.15bcdd6d.js">
 		<link rel="modulepreload" href="../../../_app/immutable/chunks/globalContexts.8bcf5d41.js">
-		<link rel="modulepreload" href="../../../_app/immutable/chunks/DataTable.d7c48ad7.js">
-		<link rel="modulepreload" href="../../../_app/immutable/chunks/EmptyChart.888c8ba1.js">
-		<link rel="modulepreload" href="../../../_app/immutable/chunks/DownloadData.450b37a9.js">
-		<link rel="modulepreload" href="../../../_app/immutable/chunks/formatting.b4645505.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/DataTable.1724a57b.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/EmptyChart.f6784d8e.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/DownloadData.c5f6fd52.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/formatting.35ba7bc8.js">
 		<link rel="modulepreload" href="../../../_app/immutable/chunks/CopyIcon.9bb56c57.js">
-		<link rel="modulepreload" href="../../../_app/immutable/chunks/QueryViewer.b5df394a.js">
-		<link rel="modulepreload" href="../../../_app/immutable/chunks/Prismjs.4b1195f0.js">
-		<link rel="modulepreload" href="../../../_app/immutable/chunks/Column.bc5ae85e.js"><title>Most Competitive F1 Seasons</title><!-- HEAD_svelte-1j2izld_START -->
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/QueryViewer.10f0cd9d.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/Prismjs.24f7d911.js">
+		<link rel="modulepreload" href="../../../_app/immutable/chunks/Column.19ef47d8.js"><title>Most Competitive F1 Seasons</title><!-- HEAD_svelte-1j2izld_START -->
 <meta property="og:title" content="Most Competitive F1 Seasons">
 <meta name="twitter:title" content="Most Competitive F1 Seasons"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@evidence_dev">
 <!-- HEAD_svelte-1j2izld_END -->
@@ -323,7 +323,7 @@
 			
 			<script>
 				{
-					__sveltekit_5uz0d2 = {
+					__sveltekit_bg6kgn = {
 						base: new URL("../../..", location).pathname.slice(0, -1),
 						env: {}
 					};
@@ -333,8 +333,8 @@
 					const data = [{"type":"data","data":{routeHash:"ce8a3d454da77193665e08c24d5847ed",paramsHash:"d41d8cd98f00b204e9800998ecf8427e",customFormattingSettings:{version:"1.0",customFormats:[]},isUserPage:true,evidencemeta:{queries:[{id:"competitive_seasons",compiledQueryString:"WITH race_count\n     AS (SELECT Count(raceid) num_of_races,\n                Max(raceid)   max_race,\n                year\n         FROM   f1.races\n         GROUP  BY year),\n     race_and_year\n     AS (SELECT r.raceid,\n                year\n         FROM   f1.races r),\n     top_points\n     AS (SELECT ry.raceid,\n                Max(Cast(ds.points AS INT)) top_points\n         FROM   race_and_year ry,\n                f1.driver_standings ds\n         WHERE  ry.raceid = ds.raceid\n         GROUP  BY ry.raceid),\n     race_breakdowns\n     AS (SELECT ry.*,\n                Cast(ds.points AS INT)\n                   AS points,\n                Round(( Cast(ds.points AS FLOAT) / tp.top_points ) * 100, 1)\n                   AS percent_points,\n                ( Cast(max_race AS FLOAT) - Cast(ry.raceid AS\n                FLOAT) ) / rc.num_of_races\n                   AS\n                percent_race\n         FROM   race_and_year ry,\n                f1.driver_standings ds,\n                top_points tp,\n                race_count rc\n         WHERE  ry.raceid = ds.raceid\n                AND ry.raceid = tp.raceid\n                AND ry.year = rc.year),\n     close_driver_races\n     AS (SELECT raceid,\n                year,\n                Sum(CASE\n                      WHEN Cast(percent_points AS FLOAT) > 80 THEN 1\n                      ELSE 0\n                    END) - 1                    AS close_drivers_80,\n                Sum(CASE\n                      WHEN Cast(percent_points AS FLOAT) > 90 THEN 1\n                      ELSE 0\n                    END) - 1                    AS close_drivers_90,\n                Sum(CASE\n                      WHEN Cast(percent_points AS FLOAT) > 95 THEN 1\n                      ELSE 0\n                    END) - 1                    AS close_drivers_95,\n                percent_race * ( Sum(CASE\n                                       WHEN Cast(percent_points AS FLOAT) > 80\n                                     THEN 1\n                                       ELSE 0\n                                     END) - 1 ) AS weighted_close_drivers_80,\n                percent_race * ( Sum(CASE\n                                       WHEN Cast(percent_points AS FLOAT) > 90\n                                     THEN 1\n                                       ELSE 0\n                                     END) - 1 ) AS weighted_close_drivers_90,\n                percent_race * ( Sum(CASE\n                                       WHEN Cast(percent_points AS FLOAT) > 95\n                                     THEN 1\n                                       ELSE 0\n                                     END) - 1 ) AS weighted_close_drivers_95\n         FROM   race_breakdowns rb\n         GROUP  BY raceid, year, percent_race)\nSELECT Max(year) as year,\n       ( Sum(close_drivers_80)\n         + Sum(close_drivers_90)\n         + Sum(close_drivers_95) )             points,\n       Sum(close_drivers_95),\n       Sum(close_drivers_90),\n       Sum(close_drivers_80),\n       Round(Sum(weighted_close_drivers_95)\n             + Sum(weighted_close_drivers_90)\n             + Sum(weighted_close_drivers_80)) AS weighted_points,\n       Round(Sum(weighted_close_drivers_95)),\n       Round(Sum(weighted_close_drivers_90)),\n       Round(Sum(weighted_close_drivers_80))\nFROM   close_driver_races\nGROUP  BY year\nORDER  BY points DESC, weighted_points DESC",inputQueryString:"WITH race_count\n     AS (SELECT Count(raceid) num_of_races,\n                Max(raceid)   max_race,\n                year\n         FROM   f1.races\n         GROUP  BY year),\n     race_and_year\n     AS (SELECT r.raceid,\n                year\n         FROM   f1.races r),\n     top_points\n     AS (SELECT ry.raceid,\n                Max(Cast(ds.points AS INT)) top_points\n         FROM   race_and_year ry,\n                f1.driver_standings ds\n         WHERE  ry.raceid = ds.raceid\n         GROUP  BY ry.raceid),\n     race_breakdowns\n     AS (SELECT ry.*,\n                Cast(ds.points AS INT)\n                   AS points,\n                Round(( Cast(ds.points AS FLOAT) / tp.top_points ) * 100, 1)\n                   AS percent_points,\n                ( Cast(max_race AS FLOAT) - Cast(ry.raceid AS\n                FLOAT) ) / rc.num_of_races\n                   AS\n                percent_race\n         FROM   race_and_year ry,\n                f1.driver_standings ds,\n                top_points tp,\n                race_count rc\n         WHERE  ry.raceid = ds.raceid\n                AND ry.raceid = tp.raceid\n                AND ry.year = rc.year),\n     close_driver_races\n     AS (SELECT raceid,\n                year,\n                Sum(CASE\n                      WHEN Cast(percent_points AS FLOAT) > 80 THEN 1\n                      ELSE 0\n                    END) - 1                    AS close_drivers_80,\n                Sum(CASE\n                      WHEN Cast(percent_points AS FLOAT) > 90 THEN 1\n                      ELSE 0\n                    END) - 1                    AS close_drivers_90,\n                Sum(CASE\n                      WHEN Cast(percent_points AS FLOAT) > 95 THEN 1\n                      ELSE 0\n                    END) - 1                    AS close_drivers_95,\n                percent_race * ( Sum(CASE\n                                       WHEN Cast(percent_points AS FLOAT) > 80\n                                     THEN 1\n                                       ELSE 0\n                                     END) - 1 ) AS weighted_close_drivers_80,\n                percent_race * ( Sum(CASE\n                                       WHEN Cast(percent_points AS FLOAT) > 90\n                                     THEN 1\n                                       ELSE 0\n                                     END) - 1 ) AS weighted_close_drivers_90,\n                percent_race * ( Sum(CASE\n                                       WHEN Cast(percent_points AS FLOAT) > 95\n                                     THEN 1\n                                       ELSE 0\n                                     END) - 1 ) AS weighted_close_drivers_95\n         FROM   race_breakdowns rb\n         GROUP  BY raceid, year, percent_race)\nSELECT Max(year) as year,\n       ( Sum(close_drivers_80)\n         + Sum(close_drivers_90)\n         + Sum(close_drivers_95) )             points,\n       Sum(close_drivers_95),\n       Sum(close_drivers_90),\n       Sum(close_drivers_80),\n       Round(Sum(weighted_close_drivers_95)\n             + Sum(weighted_close_drivers_90)\n             + Sum(weighted_close_drivers_80)) AS weighted_points,\n       Round(Sum(weighted_close_drivers_95)),\n       Round(Sum(weighted_close_drivers_90)),\n       Round(Sum(weighted_close_drivers_80))\nFROM   close_driver_races\nGROUP  BY year\nORDER  BY points DESC, weighted_points DESC",compiled:false,inline:false}]}},"uses":{"route":1},"slash":"always"},null];
 
 					Promise.all([
-						import("../../../_app/immutable/entry/start.7fe2400b.js"),
-						import("../../../_app/immutable/entry/app.109b0f4c.js")
+						import("../../../_app/immutable/entry/start.6ff790cd.js"),
+						import("../../../_app/immutable/entry/app.ced44340.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 14],
