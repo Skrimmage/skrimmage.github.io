@@ -1,1 +1,0 @@
-import{default as t}from"../chunks/_page.e692541f.js";export{t as component};
